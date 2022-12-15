@@ -96,7 +96,6 @@
             </div>
 
 
-               <iframe class="mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6370732.087084005!2d30.054689523540755!3d38.77037730219455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345fa6277d8e9%3A0xfc176c5fa42579cd!2sNetcom%20Bilgisayar%20A.S.!5e0!3m2!1str!2str!4v1669894433879!5m2!1str!2str" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
         <!-- Contact Section End -->
     </div>
