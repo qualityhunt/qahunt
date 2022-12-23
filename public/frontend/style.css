@@ -4564,7 +4564,7 @@ input[type=range]::-ms-fill-upper {
 .full-width-header .rs-header .menu-area .rs-menu-area {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li {
