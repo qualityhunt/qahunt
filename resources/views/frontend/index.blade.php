@@ -75,49 +75,34 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
 
             <div class="row gutter-16">
                 @foreach ($shopping as $shop)
-
-                <div class="col-lg-12 col-sm-12 mb-16">
-                    <div class="card mb-3" style="max-width: 100%">
-                        <div class="row no-gutters" >
-                            <div class="col-md-4">
-                                <img
-                                    src="{{  URL::to('uploads/shopping/')}}/{{ $shop->image }}" alt="{{$shop->name}}">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="title">
-                                        <a href="services-single.html">{{$shop->name}}</a>
-                                    </h5>
-                                    <p class="card-text">{!! $shop->description !!}</p>
-
-                                </div>
-                            </div>
-                        </div>
+                <div class="card" style="width: 22rem; margin-left:auto;">
+                    <img
+                        src="{{  URL::to('uploads/shopping/')}}/{{ $shop->image }}"
+                        alt="{{$shop->name}}">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="services-single.html">{{$shop->name}}</a>
+                        </h5>
+                        <p class="card-text" style="position: absolute;">{!! Illuminate\Support\Str::limit($shop->description,120) !!}</p>
+                            <a href="services-single.html"  >
+                            <button type="button" style="position: absolute; bottom: 20px; right:20px; background-color:#8C52FF;color:white" class="btn btn-lg">Devamını Görüntüle <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</i></button>
+                      </a>
+                       
                     </div>
-                    <!--
-                    <div class="service-wrap">
-
-                        <div class="row">
-
-                            <div class="col-3">
-
-                                <img
-                                    src="{{  URL::to('uploads/shopping/')}}/{{ $shop->image }}"
-                                    alt="{{$shop->name}}">
-
-                            </div>
-                            <div class="col-9">
-                                <div class="content-part">
-                                    <h5 class="title">
-                                        <a href="services-single.html">{{$shop->name}}</a>
-                                    </h5>
-                                    <div class="desc">{!! $shop->description !!}</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> -->
                 </div>
+
+                <!-- <div class="col-lg-12 col-sm-12 mb-16"> <div class="card mb-3"
+                style="max-width: 100%"> <div class="row no-gutters" > <div class="col-md-4">
+                <img src="{{ URL::to('uploads/shopping/')}}/{{ $shop->image }}"
+                alt="{{$shop->name}}"> </div> <div class="col-md-8"> <div class="card-body"> <h5
+                class="title"> <a href="services-single.html">{{$shop->name}}</a> </h5> <p
+                class="card-text">{!! $shop->description !!}</p> </div> </div> </div> </div>
+                <div class="service-wrap"> <div class="row"> <div class="col-3"> <img src="{{
+                URL::to('uploads/shopping/')}}/{{ $shop->image }}" alt="{{$shop->name}}"> </div>
+                <div class="col-9"> <div class="content-part"> <h5 class="title"> <a
+                href="services-single.html">{{$shop->name}}</a> </h5> <div class="desc">{!!
+                $shop->description !!}</div> </div> </div> </div> </div> </div>-->
 
                 @endforeach
 
