@@ -70,7 +70,7 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
         class="rs-services style1 modify pt-92 pb-84 md-pt-72 md-pb-64">
         <div class="container">
             <div class="sec-title text-center mb-47 md-mb-42">
-                <h2 class="title mb-0">Hizmetlerimiz</h2>
+                <h2 class="title mb-0">Ne Yapıyoruz ?</h2>
             </div>
 
             <div class="row gutter-16">
