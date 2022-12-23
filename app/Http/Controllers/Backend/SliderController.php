@@ -150,9 +150,9 @@ class SliderController extends BaseBackendController
     if ($request->hasFile('image')) {
       $sliderar = slider::find($id);  // here to store image alone
       // Delete a style_logo_en photo
-      if ($sliderar->image != "") {
-        unlink('uploads/sliders/' . $sliderar->image);
-      }
+      //if ($sliderar->image != "") {
+        //unlink('uploads/sliders/' . $sliderar->image);
+     // }
 
       $fileNameWithExt = $request->file('image')->getClientOriginalName();
       // get file name
