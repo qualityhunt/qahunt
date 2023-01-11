@@ -4,6 +4,130 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
 <div class="main-content">
 
     <!-- Main content Start -->
+    <!-- Contact Section Start -->
+    <div class="row" style="background-color: #f1f6fc">
+        <div class="col-4">
+            <div class="rs-contact style1 gray-bg pt-100 pb-100 md-pt-80 md-pb-80">
+                <div class="container">
+
+                        <div class="col">
+                            <div class="sec-title mb-35 md-mb-30" style="font-size: 20px;margin-left: 5%;">
+                                <h2 class="title mb-0">Yazılımınızın <b style="color: #8C52FF">tasarlandığı gibi</b>  çalıştığından emin olun.</h2> <br> <br>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i> Sağlam temeller üzerinde mükemmel yazılımlar oluşturmaya odaklanabilmeniz için dijital kaliteyle biz ilgileneceğiz. <br> <br>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i> Yüksek hızlı, yüksek kapsamlı test hizmetlerimiz, yazılım hatalarının ticari sonuçlarıyla yüzleşmek zorunda kalmayacağınız anlamına gelir. <br> <br>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i> Yerel yazılımları, arka uç sistemlerini ve müşteriye yönelik web sitelerini ve uygulamaları test ediyoruz. <br> <br>
+                                <i class="fa fa-check-circle" aria-hidden="true"></i> Test pencerenizi önemli ölçüde kısaltın ve sorunları düşündüğünüzden daha hızlı bir şekilde ortadan kaldırın. <br> <br>
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+            </div>
+
+        </div>
+        <div class="col-8">
+            <div class="rs-contact style1 gray-bg pt-100 pb-100 md-pt-80 md-pb-80">
+                <div class="container">
+                    <div class="white-bg">
+                        <div class="row">
+                            <div class="col-lg-8 form-part">
+                                <div class="sec-title mb-35 md-mb-30">
+                                    <h2 class="title mb-0">Bizimle İletişime Geçin</h2>
+                                </div>
+                                <div id="form-messages"></div>
+                                <form
+                                    id="contact-form"
+                                    class="contact-form"
+                                    method="post"
+                                    action="smtp.hostinger.com">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-30">
+                                            <div class="common-control">
+                                                <input type="text" name="name" placeholder="Ad - Soyad" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-30">
+                                            <div class="common-control">
+                                                <input type="email" name="email" placeholder="E-posta" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-30">
+                                            <div class="common-control">
+                                                <input type="text" name="phone" placeholder="Telefon Numarası" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-30">
+                                            <div class="common-control">
+                                                <input type="text" name="website" placeholder="Firma Adı" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mb-30">
+                                            <div class="common-control">
+                                                <textarea name="message" placeholder="Mesajınızı Yazınız" required=""></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="submit-btn">
+                                                <button type="submit" class="readon">Gönder</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 pl-0 md-pl-pr-15 md-order-first">
+                                <div class="contact-info">
+                                    <h3 class="title">Bize Ulaşın</h3>
+                                    <div class="info-wrap mb-20">
+                                        <div class="icon-part">
+                                            <i class="flaticon-location"></i>
+                                        </div>
+                                        <div class="content-part">
+                                            {{ GeneralSiteSettings('site_address')}}
+                                        </div>
+                                    </div>
+                                    <div class="info-wrap mb-20">
+                                        <div class="icon-part">
+                                            <i class="flaticon-call"></i>
+                                        </div>
+                                        <div class="content-part">
+                                            <h4>Telefon</h4>
+                                            <p>P:
+                                                <a href="tel:{{ GeneralSiteSettings('site_mobile')}}">{{ GeneralSiteSettings('site_mobile')}}</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="info-wrap mb-20">
+                                        <div class="icon-part">
+                                            <i class="flaticon-email"></i>
+                                        </div>
+                                        <div class="content-part">
+                                            <h4>E-posta</h4>
+                                            <p>E:
+                                                <a href="mailto:{{ GeneralSiteSettings('site_email')}}">{{ GeneralSiteSettings('site_email')}}</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="info-wrap">
+                                        <div class="icon-part">
+                                            <i class="flaticon-clock"></i>
+                                        </div>
+                                        <div class="content-part">
+                                            <h4>Çalışma Saatlerimiz</h4>
+                                            <p>Pzt-Cuma:09:00-18:00</p>
+                                            <p>Ctesi-Pazar: Kapalı</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Section End -->
+        </div>
+    </div>
+
     <!-- Slider Start -->
     <!-- Slider Start -->
     <div id="rs-slider" class="rs-slider slider1">
@@ -84,210 +208,115 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
                             <a href="services-single.html">{{$shop->name}}</a>
                         </h5>
                         <p class="card-text" style="position: absolute;">{!! Illuminate\Support\Str::limit($shop->description,120) !!}</p>
-                            <a href="services-single.html"  >
-                            <button type="button" style="position: absolute; bottom: 20px; right:20px; background-color:#8C52FF;color:white" class="btn btn-lg">Devamını Görüntüle <i class="fa fa-arrow-right" aria-hidden="true"></i>
-</i></button>
-                      </a>
-                       
-                    </div>
+                        <a href="services-single.html">
+                            <button
+                                type="button"
+                                style="position: absolute; bottom: 20px; right:20px; background-color:#8C52FF;color:white"
+                                class="btn btn-lg">Devamını Görüntüle
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </i>
+                        </button>
+                    </a>
+
                 </div>
+            </div>
 
-                <!-- <div class="col-lg-12 col-sm-12 mb-16"> <div class="card mb-3"
-                style="max-width: 100%"> <div class="row no-gutters" > <div class="col-md-4">
-                <img src="{{ URL::to('uploads/shopping/')}}/{{ $shop->image }}"
-                alt="{{$shop->name}}"> </div> <div class="col-md-8"> <div class="card-body"> <h5
-                class="title"> <a href="services-single.html">{{$shop->name}}</a> </h5> <p
-                class="card-text">{!! $shop->description !!}</p> </div> </div> </div> </div>
-                <div class="service-wrap"> <div class="row"> <div class="col-3"> <img src="{{
-                URL::to('uploads/shopping/')}}/{{ $shop->image }}" alt="{{$shop->name}}"> </div>
-                <div class="col-9"> <div class="content-part"> <h5 class="title"> <a
-                href="services-single.html">{{$shop->name}}</a> </h5> <div class="desc">{!!
-                $shop->description !!}</div> </div> </div> </div> </div> </div>-->
+            <!-- <div class="col-lg-12 col-sm-12 mb-16"> <div class="card mb-3"
+            style="max-width: 100%"> <div class="row no-gutters" > <div class="col-md-4">
+            <img src="{{ URL::to('uploads/shopping/')}}/{{ $shop->image }}"
+            alt="{{$shop->name}}"> </div> <div class="col-md-8"> <div class="card-body"> <h5
+            class="title"> <a href="services-single.html">{{$shop->name}}</a> </h5> <p
+            class="card-text">{!! $shop->description !!}</p> </div> </div> </div> </div>
+            <div class="service-wrap"> <div class="row"> <div class="col-3"> <img src="{{
+            URL::to('uploads/shopping/')}}/{{ $shop->image }}" alt="{{$shop->name}}"> </div>
+            <div class="col-9"> <div class="content-part"> <h5 class="title"> <a
+            href="services-single.html">{{$shop->name}}</a> </h5> <div class="desc">{!!
+            $shop->description !!}</div> </div> </div> </div> </div> </div>-->
 
-                @endforeach
+            @endforeach
 
+        </div>
+
+    </div>
+</div>
+<!-- Services Section End -->
+
+<!-- Skillbar Section Start <div class="rs-skillbar style1 pt-92 pb-100 md-pt-72
+md-pb-80 sm-pt-80"> <div class="container"> <div class="gray-bg"> <div
+class="row"> <img src="{{asset('frontend/assets/img/netcom-banner.jpeg')}}"
+alt=""> <div class="col-lg-6 pl-0 md-order-first md-pl-pr-15"> <div
+class="bg-part md-pt-200 md-pb-200"></div> </div> </div> </div> </div> </div>
+Skillbar Section End -->
+
+<!-- Blog Section Start -->
+<div class="rs-blog style1 pt-91 pb-92 md-pt-71 md-pb-72 sm-pb-75">
+    <div class="container">
+        <div class="row y-middle mb-53 md-mb-40 sm-mb-50">
+            <div class="col-md-6 sm-mb-22">
+                <div class="sec-title">
+                    <span class="sub-title primary right-line">Bizden Haberler</span>
+                    <h2 class="title mb-0">Blog</h2>
+                </div>
             </div>
 
         </div>
-    </div>
-    <!-- Services Section End -->
-
-    <!-- Skillbar Section Start <div class="rs-skillbar style1 pt-92 pb-100 md-pt-72
-    md-pb-80 sm-pt-80"> <div class="container"> <div class="gray-bg"> <div
-    class="row"> <img src="{{asset('frontend/assets/img/netcom-banner.jpeg')}}"
-    alt=""> <div class="col-lg-6 pl-0 md-order-first md-pl-pr-15"> <div
-    class="bg-part md-pt-200 md-pb-200"></div> </div> </div> </div> </div> </div>
-    Skillbar Section End -->
-
-    <!-- Contact Section Start -->
-    <div class="rs-contact style1 gray-bg pt-100 pb-100 md-pt-80 md-pb-80">
-        <div class="container">
-            <div class="white-bg">
-                <div class="row">
-                    <div class="col-lg-8 form-part">
-                        <div class="sec-title mb-35 md-mb-30">
-                            <h2 class="title mb-0">Bizimle İletişime Geçin</h2>
-                        </div>
-                        <div id="form-messages"></div>
-                        <form
-                            id="contact-form"
-                            class="contact-form"
-                            method="post"
-                            action="smtp.hostinger.com">
-                            <div class="row">
-                                <div class="col-md-6 mb-30">
-                                    <div class="common-control">
-                                        <input type="text" name="name" placeholder="Ad - Soyad" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-30">
-                                    <div class="common-control">
-                                        <input type="email" name="email" placeholder="E-posta" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-30">
-                                    <div class="common-control">
-                                        <input type="text" name="phone" placeholder="Telefon Numarası" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-30">
-                                    <div class="common-control">
-                                        <input type="text" name="website" placeholder="Firma Adı" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-12 mb-30">
-                                    <div class="common-control">
-                                        <textarea name="message" placeholder="Mesajınızı Yazınız" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="submit-btn">
-                                        <button type="submit" class="readon">Gönder</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+        <div
+            class="rs-carousel owl-carousel dot-style1"
+            data-loop="true"
+            data-items="3"
+            data-margin="30"
+            data-autoplay="true"
+            data-hoverpause="true"
+            data-autoplay-timeout="5000"
+            data-smart-speed="800"
+            data-dots="true"
+            data-nav="false"
+            data-nav-speed="false"
+            data-center-mode="false"
+            data-mobile-device="1"
+            data-mobile-device-nav="false"
+            data-mobile-device-dots="false"
+            data-ipad-device="2"
+            data-ipad-device-nav="false"
+            data-ipad-device-dots="true"
+            data-ipad-device2="1"
+            data-ipad-device-nav2="false"
+            data-ipad-device-dots2="false"
+            data-md-device="3"
+            data-lg-device="3"
+            data-md-device-nav="false"
+            data-md-device-dots="true">
+            @foreach($posts as $post)
+            <div class="blog-wrap">
+                <div class="img-part">
+                    <img
+                        src="{{asset('uploads/posts/')}}/{{$post->f_image}}"
+                        alt="{{$post->title}}">
+                    <div class="fly-btn">
+                        <a href="{{route('frontend.new',$post->slug)}}">
+                            <i class="flaticon-right-arrow"></i>
+                        </a>
                     </div>
-                    <div class="col-lg-4 pl-0 md-pl-pr-15 md-order-first">
-                        <div class="contact-info">
-                            <h3 class="title">Bize Ulaşın</h3>
-                            <div class="info-wrap mb-20">
-                                <div class="icon-part">
-                                    <i class="flaticon-location"></i>
-                                </div>
-                                <div class="content-part">
-                                    {{ GeneralSiteSettings('site_address')}}
-                                </div>
-                            </div>
-                            <div class="info-wrap mb-20">
-                                <div class="icon-part">
-                                    <i class="flaticon-call"></i>
-                                </div>
-                                <div class="content-part">
-                                    <h4>Telefon</h4>
-                                    <p>P:
-                                        <a href="tel:{{ GeneralSiteSettings('site_mobile')}}">{{ GeneralSiteSettings('site_mobile')}}</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="info-wrap mb-20">
-                                <div class="icon-part">
-                                    <i class="flaticon-email"></i>
-                                </div>
-                                <div class="content-part">
-                                    <h4>E-posta</h4>
-                                    <p>E:
-                                        <a href="mailto:{{ GeneralSiteSettings('site_email')}}">{{ GeneralSiteSettings('site_email')}}</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="info-wrap">
-                                <div class="icon-part">
-                                    <i class="flaticon-clock"></i>
-                                </div>
-                                <div class="content-part">
-                                    <h4>Çalışma Saatlerimiz</h4>
-                                    <p>Pzt-Cuma:09:00-18:00</p>
-                                    <p>Ctesi-Pazar: Kapalı</p>
-                                </div>
-                            </div>
+                </div>
+                <div class="content-part">
+                    <a class="categories" href="{{route('frontend.new',$post->slug)}}">{{$post->title_tr}}</a>
+                    <h3 class="title">
+                        <a href="{{route('frontend.new',$post->slug)}}">{!! Str::words($post->text_tr,30,'...')!!}</a>
+                    </h3>
+                    <div class="blog-meta">
+                        <div class="date">
+                            <i class="fa fa-clock-o"></i>
+                            {{ date('d',strtotime($post->date)) }}
+                            {{ date('M',strtotime($post->date)) }}
                         </div>
                     </div>
                 </div>
             </div>
+            @endforeach
         </div>
     </div>
-    <!-- Contact Section End -->
-
-    <!-- Blog Section Start -->
-    <div class="rs-blog style1 pt-91 pb-92 md-pt-71 md-pb-72 sm-pb-75">
-        <div class="container">
-            <div class="row y-middle mb-53 md-mb-40 sm-mb-50">
-                <div class="col-md-6 sm-mb-22">
-                    <div class="sec-title">
-                        <span class="sub-title primary right-line">Bizden Haberler</span>
-                        <h2 class="title mb-0">Blog</h2>
-                    </div>
-                </div>
-
-            </div>
-            <div
-                class="rs-carousel owl-carousel dot-style1"
-                data-loop="true"
-                data-items="3"
-                data-margin="30"
-                data-autoplay="true"
-                data-hoverpause="true"
-                data-autoplay-timeout="5000"
-                data-smart-speed="800"
-                data-dots="true"
-                data-nav="false"
-                data-nav-speed="false"
-                data-center-mode="false"
-                data-mobile-device="1"
-                data-mobile-device-nav="false"
-                data-mobile-device-dots="false"
-                data-ipad-device="2"
-                data-ipad-device-nav="false"
-                data-ipad-device-dots="true"
-                data-ipad-device2="1"
-                data-ipad-device-nav2="false"
-                data-ipad-device-dots2="false"
-                data-md-device="3"
-                data-lg-device="3"
-                data-md-device-nav="false"
-                data-md-device-dots="true">
-                @foreach($posts as $post)
-                <div class="blog-wrap">
-                    <div class="img-part">
-                        <img
-                            src="{{asset('uploads/posts/')}}/{{$post->f_image}}"
-                            alt="{{$post->title}}">
-                        <div class="fly-btn">
-                            <a href="{{route('frontend.new',$post->slug)}}">
-                                <i class="flaticon-right-arrow"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="content-part">
-                        <a class="categories" href="{{route('frontend.new',$post->slug)}}">{{$post->title_tr}}</a>
-                        <h3 class="title">
-                            <a href="{{route('frontend.new',$post->slug)}}">{!! Str::words($post->text_tr,30,'...')!!}</a>
-                        </h3>
-                        <div class="blog-meta">
-                            <div class="date">
-                                <i class="fa fa-clock-o"></i>
-                                {{ date('d',strtotime($post->date)) }}
-                                {{ date('M',strtotime($post->date)) }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
-    <!-- Blog Section End -->
+</div>
+<!-- Blog Section End -->
 </div>
 <!-- Main content End -->
 
