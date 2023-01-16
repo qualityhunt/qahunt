@@ -5,131 +5,6 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
 
     <!-- Main content Start -->
     <!-- Contact Section Start -->
-    <div class="row" style="background-color: #f1f6fc">
-        <div class="col-4">
-            <div class="rs-contact style1 gray-bg pt-100 pb-100 md-pt-80 md-pb-80">
-                <div class="container">
-
-                        <div class="col">
-                            <div class="sec-title mb-35 md-mb-30" style="font-size: 20px;margin-left: 5%;">
-                                <h2 class="title mb-0">Yazılımınızın <b style="color: #8C52FF">tasarlandığı gibi</b>  çalıştığından emin olun.</h2> <br> <br>
-                                <i class="fa fa-check-circle" aria-hidden="true"></i> Sağlam temeller üzerinde mükemmel yazılımlar oluşturmaya odaklanabilmeniz için dijital kaliteyle biz ilgileneceğiz. <br> <br>
-                                <i class="fa fa-check-circle" aria-hidden="true"></i> Yüksek hızlı, yüksek kapsamlı test hizmetlerimiz, yazılım hatalarının ticari sonuçlarıyla yüzleşmek zorunda kalmayacağınız anlamına gelir. <br> <br>
-                                <i class="fa fa-check-circle" aria-hidden="true"></i> Yerel yazılımları, arka uç sistemlerini ve müşteriye yönelik web sitelerini ve uygulamaları test ediyoruz. <br> <br>
-                                <i class="fa fa-check-circle" aria-hidden="true"></i> Test pencerenizi önemli ölçüde kısaltın ve sorunları düşündüğünüzden daha hızlı bir şekilde ortadan kaldırın. <br> <br>
-                            </div>
-
-                        </div>
-                    </div>
-
-                
-            </div>
-
-        </div>
-        <div class="col-8">
-            <div class="rs-contact style1 gray-bg pt-100 pb-100 md-pt-80 md-pb-80">
-                <div class="container">
-                    <div class="white-bg">
-                        <div class="row">
-                            <div class="col-lg-8 form-part">
-                                <div class="sec-title mb-35 md-mb-30">
-                                    <h2 class="title mb-0">Bizimle İletişime Geçin</h2>
-                                </div>
-                                <div id="form-messages"></div>
-                                <form
-                                    id="contact-form"
-                                    class="contact-form"
-                                    method="post"
-                                    action="smtp.hostinger.com">
-                                    <div class="row">
-                                        <div class="col-md-6 mb-30">
-                                            <div class="common-control">
-                                                <input type="text" name="name" placeholder="Ad - Soyad" required="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-30">
-                                            <div class="common-control">
-                                                <input type="email" name="email" placeholder="E-posta" required="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-30">
-                                            <div class="common-control">
-                                                <input type="text" name="phone" placeholder="Telefon Numarası" required="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-30">
-                                            <div class="common-control">
-                                                <input type="text" name="website" placeholder="Firma Adı" required="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 mb-30">
-                                            <div class="common-control">
-                                                <textarea name="message" placeholder="Mesajınızı Yazınız" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="submit-btn">
-                                                <button type="submit" class="readon">Gönder</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-lg-4 pl-0 md-pl-pr-15 md-order-first">
-                                <div class="contact-info">
-                                    <h3 class="title">Bize Ulaşın</h3>
-                                    <div class="info-wrap mb-20">
-                                        <div class="icon-part">
-                                            <i class="flaticon-location"></i>
-                                        </div>
-                                        <div class="content-part">
-                                            {{ GeneralSiteSettings('site_address')}}
-                                        </div>
-                                    </div>
-                                    <div class="info-wrap mb-20">
-                                        <div class="icon-part">
-                                            <i class="flaticon-call"></i>
-                                        </div>
-                                        <div class="content-part">
-                                            <h4>Telefon</h4>
-                                            <p>P:
-                                                <a href="tel:{{ GeneralSiteSettings('site_mobile')}}">{{ GeneralSiteSettings('site_mobile')}}</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="info-wrap mb-20">
-                                        <div class="icon-part">
-                                            <i class="flaticon-email"></i>
-                                        </div>
-                                        <div class="content-part">
-                                            <h4>E-posta</h4>
-                                            <p>E:
-                                                <a href="mailto:{{ GeneralSiteSettings('site_email')}}">{{ GeneralSiteSettings('site_email')}}</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="info-wrap">
-                                        <div class="icon-part">
-                                            <i class="flaticon-clock"></i>
-                                        </div>
-                                        <div class="content-part">
-                                            <h4>Çalışma Saatlerimiz</h4>
-                                            <p>Pzt-Cuma:09:00-18:00</p>
-                                            <p>Ctesi-Pazar: Kapalı</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Contact Section End -->
-        </div>
-    </div>
-
-    <!-- Slider Start -->
-    <!-- Slider Start -->
     <div id="rs-slider" class="rs-slider slider1">
 
         <div class="bend niceties">
@@ -146,99 +21,245 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
 
         </div>
     </div>
-    <!-- Slider End -->
 
-    <!-- Services Mini Section Start <div class="rs-services style1 pt-100 pb-84
-    md-pt-80 md-pb-64"> <div class="container"> <h2 align="center" ;><b>Distribütörü
-    Olduğumuz Markalar</b> </h3> <br> <div class="row gutter-16"> <div
-    class="col-lg-3 col-sm-6 mb-16"> <div class="service-wrap"> <div
-    class="content-part"> <a href="QA Huntdraytek.php"><img
-    src="{{('frontend/assets/img/marka/dry.png')}}" width="100%" height="auto"
-    /></a> </div> </div> </div> <div class="col-lg-3 col-sm-6 mb-16"> <div
-    class="service-wrap"> <div class="content-part"> <a href="QA Huntengenius.php">
-    <img src="{{('frontend/assets/img/marka/engenius_logo.png')}}" width="100%"
-    height="auto" /></a> </div> </div> </div> <div class="col-lg-3 col-sm-6 mb-16">
-    <div class="service-wrap"> <div class="content-part"> <a href="QA
-    Huntsynology.php"><img
-    src="{{('frontend/assets/img/marka/Synology_logo_Black.png')}}" width="100%"
-    height="auto" /></a> </div> </div> </div> <div class="col-lg-3 col-sm-6 mb-16">
-    <div class="service-wrap"> <div class="content-part"> <a href="lr-link.php"><img
-    src="{{('frontend/assets/img/marka/lr-link-logo.png')}}" width="100%"
-    height="auto" /></a> </div> </div> </div> </div> </div> </div> Services Mini
-    Section End -->
+    <div class="row" style="background-color: #f1f6fc;">
+        <div class="col-12">
+            <div class="container">
 
-    <!-- About Section Start -->
-    <div id="rs-about" class="rs-about style1 bg1 md-pt-80">
-        <div class="container">
-            <div class="row y-bottom">
+                <div
+                    class="sec-title mb-35 md-mb-30"
+                    style="font-size: 20px;margin-left: 5%;margin-top:50px;">
+                    <h2 class="title mb-0">Yazılımınızın
+                        <b style="color: #8C52FF">tasarlandığı gibi</b>
+                        çalıştığından emin olun.</h2>
+                    <br>
+                    <br>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    Sağlam temeller üzerinde mükemmel yazılımlar oluşturmaya odaklanabilmeniz için
+                    dijital kaliteyle biz ilgileneceğiz.
+                    <br>
+                    <br>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    Yüksek hızlı, yüksek kapsamlı test hizmetlerimiz, yazılım hatalarının ticari
+                    sonuçlarıyla yüzleşmek zorunda kalmayacağınız anlamına gelir.
+                    <br>
+                    <br>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    Yerel yazılımları, arka uç sistemlerini ve müşteriye yönelik web sitelerini ve
+                    uygulamaları test ediyoruz.
+                    <br>
+                    <br>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    Test pencerenizi önemli ölçüde kısaltın ve sorunları düşündüğünüzden daha hızlı
+                    bir şekilde ortadan kaldırın.
+                    <br>
+                    <br>
+                </div>
 
-                <div class="col-lg-12 pl-66 pt-75 pb-75 md-pt-42 md-pb-72">
-                    <div class="sec-title mb-47 md-mb-42">
-                        <h2 class="title mb-0">{{ $about->about_title }}</h2>
-                    </div>
+            </div>
+        </div>
 
-                    <div class="services-part">
-
-                        <div class="services-text">
-                            <div class="desc">{!! $about->about_text !!}</div>
+    </div>
+    <div class="col-12">
+        <div class="rs-contact style1 gray-bg pt-100 pb-100 md-pt-80 md-pb-80">
+            <div class="container">
+                <div class="white-bg">
+                    <div class="row">
+                        <div class="col-lg-8 form-part">
+                            <div class="sec-title mb-35 md-mb-30">
+                                <h2 class="title mb-0">Bizimle İletişime Geçin</h2>
+                            </div>
+                            <div id="form-messages"></div>
+                            <form
+                                id="contact-form"
+                                class="contact-form"
+                                method="post"
+                                action="smtp.hostinger.com">
+                                <div class="row">
+                                    <div class="col-md-6 mb-30">
+                                        <div class="common-control">
+                                            <input type="text" name="name" placeholder="Ad - Soyad" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-30">
+                                        <div class="common-control">
+                                            <input type="email" name="email" placeholder="E-posta" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-30">
+                                        <div class="common-control">
+                                            <input type="text" name="phone" placeholder="Telefon Numarası" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-30">
+                                        <div class="common-control">
+                                            <input type="text" name="website" placeholder="Firma Adı" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb-30">
+                                        <div class="common-control">
+                                            <textarea name="message" placeholder="Mesajınızı Yazınız" required=""></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="submit-btn">
+                                            <button type="submit" class="readon">Gönder</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-4 pl-0 md-pl-pr-15 md-order-first">
+                            <div class="contact-info">
+                                <h3 class="title">Bize Ulaşın</h3>
+                                <div class="info-wrap mb-20">
+                                    <div class="icon-part">
+                                        <i class="flaticon-location"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        {{ GeneralSiteSettings('site_address')}}
+                                    </div>
+                                </div>
+                                <div class="info-wrap mb-20">
+                                    <div class="icon-part">
+                                        <i class="flaticon-call"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        <h4>Telefon</h4>
+                                        <p>P:
+                                            <a href="tel:{{ GeneralSiteSettings('site_mobile')}}">{{ GeneralSiteSettings('site_mobile')}}</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info-wrap mb-20">
+                                    <div class="icon-part">
+                                        <i class="flaticon-email"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        <h4>E-posta</h4>
+                                        <p>E:
+                                            <a href="mailto:{{ GeneralSiteSettings('site_email')}}">{{ GeneralSiteSettings('site_email')}}</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info-wrap">
+                                    <div class="icon-part">
+                                        <i class="flaticon-clock"></i>
+                                    </div>
+                                    <div class="content-part">
+                                        <h4>Çalışma Saatlerimiz</h4>
+                                        <p>Pzt-Cuma:09:00-18:00</p>
+                                        <p>Ctesi-Pazar: Kapalı</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Contact Section End -->
     </div>
-    <!-- About Section End -->
-    <!-- Services Section Start -->
-    <div
-        id="rs-services"
-        class="rs-services style1 modify pt-92 pb-84 md-pt-72 md-pb-64">
-        <div class="container">
-            <div class="sec-title text-center mb-47 md-mb-42">
-                <h2 class="title mb-0">Ne Yapıyoruz ?</h2>
-            </div>
+</div>
 
-            <div class="row gutter-16">
+<!-- Slider Start -->
+<!-- Slider Start -->
+
+<!-- Slider End -->
+
+<!-- Services Mini Section Start <div class="rs-services style1 pt-100 pb-84
+md-pt-80 md-pb-64"> <div class="container"> <h2 align="center" ;><b>Distribütörü
+Olduğumuz Markalar</b> </h3> <br> <div class="row gutter-16"> <div
+class="col-lg-3 col-sm-6 mb-16"> <div class="service-wrap"> <div
+class="content-part"> <a href="QA Huntdraytek.php"><img
+src="{{('frontend/assets/img/marka/dry.png')}}" width="100%" height="auto"
+/></a> </div> </div> </div> <div class="col-lg-3 col-sm-6 mb-16"> <div
+class="service-wrap"> <div class="content-part"> <a href="QA Huntengenius.php">
+<img src="{{('frontend/assets/img/marka/engenius_logo.png')}}" width="100%"
+height="auto" /></a> </div> </div> </div> <div class="col-lg-3 col-sm-6 mb-16">
+<div class="service-wrap"> <div class="content-part"> <a href="QA
+Huntsynology.php"><img
+src="{{('frontend/assets/img/marka/Synology_logo_Black.png')}}" width="100%"
+height="auto" /></a> </div> </div> </div> <div class="col-lg-3 col-sm-6 mb-16">
+<div class="service-wrap"> <div class="content-part"> <a href="lr-link.php"><img
+src="{{('frontend/assets/img/marka/lr-link-logo.png')}}" width="100%"
+height="auto" /></a> </div> </div> </div> </div> </div> </div> Services Mini
+Section End -->
+
+<!-- About Section Start <div id="rs-about" class="rs-about style1 bg1
+md-pt-80"> <div class="container"> <div class="row y-bottom"> <div
+class="col-lg-12 pl-66 pt-75 pb-75 md-pt-42 md-pb-72"> <div class="sec-title
+mb-47 md-mb-42"> <h2 class="title mb-0">{{ $about->about_title }}</h2> </div>
+<div class="services-part"> <div class="services-text"> <div class="desc">{!!
+$about->about_text !!}</div> </div> </div> </div> </div> </div> </div> -->
+<!-- About Section End -->
+<!-- Services Section Start -->
+
+<div
+    id="rs-services"
+    class="rs-services style1 modify pt-92 pb-84 md-pt-72 md-pb-64">
+    <div class="container">
+        <div class="sec-title text-center mb-47 md-mb-42">
+            <h2 class="title mb-0">Ne Yapıyoruz ?</h2>
+        </div>
+
+        <div class="row gutter-16">
+
+            <div class="row row-cols-1 row-cols-md-4 g-3">
                 @foreach ($shopping as $shop)
-                <div class="card" style="width: 22rem; margin-left:auto;">
-                    <img
-                        src="{{  URL::to('uploads/shopping/')}}/{{ $shop->image }}"
-                        alt="{{$shop->name}}">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="services-single.html">{{$shop->name}}</a>
-                        </h5>
-                        <p class="card-text" style="position: absolute;">{!! Illuminate\Support\Str::limit($shop->description,120) !!}</p>
-                        <a href="services-single.html">
-                            <button
-                                type="button"
-                                style="position: absolute; bottom: 20px; right:20px; background-color:#8C52FF;color:white"
-                                class="btn btn-lg">Devamını Görüntüle
+                <div class="col">
+                    <div class="card h-100">
+                        <img
+                            src="{{  URL::to('uploads/shopping/')}}/{{ $shop->image }}"
+                            alt="{{$shop->name}}"/>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="services-single.html">{{$shop->name}}</a>
+                            </h5>
+                            <p class="card-text">
+                                {!! Illuminate\Support\Str::limit($shop->description,120) !!}
+                            </p>
+                        </div>
+                        <!--
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-lg">Devamını Görüntüle
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </i>
                         </button>
-                    </a>
-
+                    </div>-->
                 </div>
             </div>
 
-            <!-- <div class="col-lg-12 col-sm-12 mb-16"> <div class="card mb-3"
-            style="max-width: 100%"> <div class="row no-gutters" > <div class="col-md-4">
-            <img src="{{ URL::to('uploads/shopping/')}}/{{ $shop->image }}"
-            alt="{{$shop->name}}"> </div> <div class="col-md-8"> <div class="card-body"> <h5
-            class="title"> <a href="services-single.html">{{$shop->name}}</a> </h5> <p
-            class="card-text">{!! $shop->description !!}</p> </div> </div> </div> </div>
-            <div class="service-wrap"> <div class="row"> <div class="col-3"> <img src="{{
-            URL::to('uploads/shopping/')}}/{{ $shop->image }}" alt="{{$shop->name}}"> </div>
-            <div class="col-9"> <div class="content-part"> <h5 class="title"> <a
-            href="services-single.html">{{$shop->name}}</a> </h5> <div class="desc">{!!
-            $shop->description !!}</div> </div> </div> </div> </div> </div>-->
-
             @endforeach
-
         </div>
 
     </div>
+
 </div>
+<!-- <div id="rs-services" class="rs-services style1 modify pt-92 pb-84 md-pt-72
+md-pb-64"> <div class="container"> <div class="sec-title text-center mb-47
+md-mb-42"> <h2 class="title mb-0">Ne Yapıyoruz ?</h2> </div> <div class="row
+gutter-16"> @foreach ($shopping as $shop) <div class="card" style="width: 22rem;
+margin-left:auto;"> <img src="{{ URL::to('uploads/shopping/')}}/{{ $shop->image
+}}" alt="{{$shop->name}}"> <div class="card-body"> <h5 class="card-title"> <a
+href="services-single.html">{{$shop->name}}</a> </h5> <p class="card-text"
+style="position: absolute;">{!!
+Illuminate\Support\Str::limit($shop->description,120) !!}</p> <a
+href="services-single.html"> <button type="button" style="position: absolute;
+bottom: 20px; right:20px; background-color:#8C52FF;color:white" class="btn
+btn-lg">Devamını Görüntüle <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</i> </button> </a> </div> </div> <div class="col-lg-12 col-sm-12 mb-16"> <div
+class="card mb-3" style="max-width: 100%"> <div class="row no-gutters" > <div
+class="col-md-4"> <img src="{{ URL::to('uploads/shopping/')}}/{{ $shop->image
+}}" alt="{{$shop->name}}"> </div> <div class="col-md-8"> <div class="card-body">
+<h5 class="title"> <a href="services-single.html">{{$shop->name}}</a> </h5> <p
+class="card-text">{!! $shop->description !!}</p> </div> </div> </div> </div>
+<div class="service-wrap"> <div class="row"> <div class="col-3"> <img src="{{
+URL::to('uploads/shopping/')}}/{{ $shop->image }}" alt="{{$shop->name}}"> </div>
+<div class="col-9"> <div class="content-part"> <h5 class="title"> <a
+href="services-single.html">{{$shop->name}}</a> </h5> <div class="desc">{!!
+$shop->description !!}</div> </div> </div> </div> </div> </div> @endforeach
+</div> </div> </div>-->
 <!-- Services Section End -->
 
 <!-- Skillbar Section Start <div class="rs-skillbar style1 pt-92 pb-100 md-pt-72
