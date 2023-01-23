@@ -72,9 +72,8 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
                             <div id="form-messages"></div>
                             <form
                                 id="contact-form"
-                                class="contact-form"
-                                method="post"
-                                action="smtp.hostinger.com">
+                                class="contact-form" method="post" action="{{ route('contact.send') }}">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-6 mb-30">
                                         <div class="common-control">

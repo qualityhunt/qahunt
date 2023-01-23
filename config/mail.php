@@ -89,7 +89,7 @@ return [
     */
 
     'username' => env('MAIL_USERNAME', 'batuhan@qahunt.com'),
-    'password' => env('MAIL_PASSWORD', 'Batuhan+40!'),
+    'password' => env('MAIL_PASSWORD', 'Batuhan+40'),
 
     /*
     |--------------------------------------------------------------------------

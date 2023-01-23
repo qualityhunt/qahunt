@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\Frontend\ContactController;
 
 /*
  * Global Routes
@@ -19,6 +20,7 @@ Route::resource('editor', 'CKEditorController');
 Route::group(['namespace' => 'Frontend', 'as' => 'frontend.'], function () {
     include_route_files(__DIR__.'/frontend/');
 });
+Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
 
 /*
  * Backend Routes
