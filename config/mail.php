@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 587),
+    'port' => env('MAIL_PORT', 465),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,8 +55,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'mailler@ibda.com.tr'),
-        'name' => env('MAIL_FROM_NAME', 'Investors and Business Development Association'),
+        'address' => env('MAIL_FROM_ADDRESS', 'batuhan@qahunt.com'),
+        'name' => env('MAIL_FROM_NAME', 'QA Hunt - Batuhan Uruş'),
     ],
 
 
@@ -75,7 +75,7 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
 
     /*
     |--------------------------------------------------------------------------
@@ -88,8 +88,8 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME', 'mailler@ibda.com.tr'),
-    'password' => env('MAIL_PASSWORD', 'Mkodatik2019!'),
+    'username' => env('MAIL_USERNAME', 'batuhan@qahunt.com'),
+    'password' => env('MAIL_PASSWORD', 'Batuhan+40!'),
 
     /*
     |--------------------------------------------------------------------------
