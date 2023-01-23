@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-md-7 custom2 pl-0">
                             <div id="form-messages"></div>
-                            <form id="contact-form" method="post" action="https://rstheme.com/products/html/reobiz/mailer.php">
+                            <form id="contact-form" method="post" action="smtp.hostinger.com">
                                 <div class="sec-title mb-53 md-mb-42">
                                     <div class="sub-title white-color">İletişim</div>
                                     <h2 class="title white-color mb-0">Bizimle İletişime Geçin.</h2>

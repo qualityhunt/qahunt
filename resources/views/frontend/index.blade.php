@@ -9,7 +9,7 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
 
         <div class="bend niceties">
 
-            <div id="nivoSlider" class="slides">
+          <!--   <div id="nivoSlider" class="slides">-->
                 @foreach ($sliders as $slider)
 
                 <img
@@ -19,7 +19,7 @@ GeneralSiteSettings('site_title') . ' | ' . __('navs.general.home'))
                 @endforeach
             </div>
 
-        </div>
+       <!--   </div>-->
     </div>
 
     <div class="row" style="background-color: #f1f6fc;">
