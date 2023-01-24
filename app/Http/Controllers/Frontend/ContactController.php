@@ -41,6 +41,6 @@ class ContactController extends BaseFrontendController
         $contact_form->message = $request->message;
         $contact_form->save();
         Mail::send(new SendContact($request));
-        return redirect()->back()->withFlashSuccess(__('alerts.frontend.contact.sent'));
+    
     }
 }
