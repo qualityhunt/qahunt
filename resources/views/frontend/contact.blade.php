@@ -87,7 +87,9 @@
                                         <textarea name="message" placeholder="Mesajınızı Yazın" required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
-                                        <button type="submit" class="readon modify">Gönder</button>
+                                        <button type="submit" onClick="function reload() {document.location.reload();
+                                            }
+                                            setTimeout(reload, 5000);" class="readon modify">Gönder</button>
                                     </div>
                                 </div>
                             </form>

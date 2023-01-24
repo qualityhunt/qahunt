@@ -41,7 +41,7 @@ class ContactController extends BaseFrontendController
         $contact_form->message = $request->message;
         $contact_form->save();
         Mail::send(new SendContact($request));
-        return redirect('/iletisim');
+
     
     }
 }
