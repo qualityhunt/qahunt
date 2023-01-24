@@ -68,7 +68,7 @@
                                  @csrf
                                 <div class="sec-title mb-53 md-mb-42">
                                     <div class="sub-title white-color">İletişim</div>
-                                    <h2 class="title white-color mb-0">Bizimle İletişime Geçin.</h2>
+                                    <h2 class="title white-color mb-0">Bizimle İletişime Geçin</h2>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
